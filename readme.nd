@@ -1,1 +1,10 @@
-readme
+to test this project, you have to run project and add at least reactor. 
+Additional objects are controller, hammer and light.
+
+light can be on only when reactor is running
+hammer can repair damaged reactor and decrease temperature
+controller can toggle status of reactor to Off and On
+
+Reactor has attributes as damage and temperature. 
+When temperature is bigger than 2000, reactor is being damaged. Bigger temperature - bigger damage. 
+After getting 5000 temperature, reactor will have 100% damage and it will blow up.
