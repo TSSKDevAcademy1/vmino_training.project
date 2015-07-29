@@ -34,7 +34,7 @@ public class Light extends AbstractActor{
             setAnimation(offAnimation);
         }
         else{
-           this.status = true;
+            this.status = true;
             if(electricity){
             setAnimation(onAnimation);
             }

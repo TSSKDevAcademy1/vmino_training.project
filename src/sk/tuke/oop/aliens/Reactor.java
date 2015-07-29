@@ -153,6 +153,9 @@ public class Reactor extends AbstractActor {
     
     public void addLight(Light light){
         this.light = light;
+        if(isRunning() && damage < 100){
+            light.setElectricityFlow(true);
+        }
     }
     
     public void removeLight(Light light){
